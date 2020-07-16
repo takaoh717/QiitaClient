@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB29AAC424C07DE1005A7B10 /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB29AAC324C07DE1005A7B10 /* ItemDetailView.swift */; };
 		DB96B6AB24C043BE0050D8C9 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = DB96B6AA24C043BE0050D8C9 /* Alamofire */; };
 		DB96B6AF24C043E00050D8C9 /* BaseAPIProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB96B6AE24C043E00050D8C9 /* BaseAPIProtocol.swift */; };
 		DB96B6B124C044030050D8C9 /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB96B6B024C044030050D8C9 /* NetworkConstants.swift */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DB29AAC324C07DE1005A7B10 /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
 		DB96B6AE24C043E00050D8C9 /* BaseAPIProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAPIProtocol.swift; sourceTree = "<group>"; };
 		DB96B6B024C044030050D8C9 /* NetworkConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "\U0010NetworkConstants.swift"; sourceTree = "<group>"; };
 		DB96B6B224C0441D0050D8C9 /* NetworkPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkPublisher.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 			children = (
 				DB96B6BE24C046DF0050D8C9 /* ItemsListView.swift */,
 				DB96B6C524C0474E0050D8C9 /* ItemsListCell.swift */,
+				DB29AAC324C07DE1005A7B10 /* ItemDetailView.swift */,
 			);
 			path = Items;
 			sourceTree = "<group>";
@@ -368,6 +371,7 @@
 				DB96B6C624C0474E0050D8C9 /* ItemsListCell.swift in Sources */,
 				DB96B6AF24C043E00050D8C9 /* BaseAPIProtocol.swift in Sources */,
 				DB96B6B324C0441D0050D8C9 /* NetworkPublisher.swift in Sources */,
+				DB29AAC424C07DE1005A7B10 /* ItemDetailView.swift in Sources */,
 				DB96B6BF24C046DF0050D8C9 /* ItemsListView.swift in Sources */,
 				DB96B6BD24C045DD0050D8C9 /* ItemsListViewModel.swift in Sources */,
 			);

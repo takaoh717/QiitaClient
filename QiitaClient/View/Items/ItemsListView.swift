@@ -17,7 +17,9 @@ struct ItemsListView: View {
         NavigationView {
             VStack {
                 List(viewModel.displayData) { item in
-                    ItemsListCell(item: item)
+                    NavigationLink(destination: ItemDetailView(item: item)) {
+                        ItemsListCell(item: item)
+                    }
                 }
             }.navigationBarTitle("記事一覧")
         }.onAppear(perform: viewModel.onAppear)
