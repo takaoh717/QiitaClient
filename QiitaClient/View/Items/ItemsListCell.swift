@@ -24,6 +24,9 @@ struct ItemsListCell: View {
             Text(item.title)
             HStack {
                 Text(item.user.name)
+                if let imageData = imageDownloader.downloadData, let image = UIImage(data: imageData) {
+                    Image(uiImage: image).resizable().frame(width: 30, height: 30, alignment: .center).aspectRatio(contentMode: .fill).cornerRadius(15)
+                }
             }
         }
     }
